@@ -1,0 +1,109 @@
+2026-10-05 09:00:30 optical-mumbai-02 INFO HEARTBEAT status=ok
+2026-10-05 09:01:09 router-delhi-01 INFO CONFIG-SAVED user=admin
+2026-10-05 09:01:46 router-delhi-01 INFO HEARTBEAT status=ok
+2026-10-05 09:02:18 router-delhi-01 INFO HEARTBEAT status=ok
+2026-10-05 09:02:28 optical-mumbai-02 INFO HEARTBEAT status=ok
+2026-10-05 09:02:40 router-delhi-01 INFO HEARTBEAT status=ok
+2026-10-05 09:02:48 router-chennai-04 INFO HEARTBEAT status=ok
+2026-10-05 09:03:11 optical-mumbai-02 INFO HEARTBEAT status=ok
+2026-10-05 09:03:35 router-delhi-01 INFO HEARTBEAT status=ok
+2026-10-05 09:03:46 optical-mumbai-02 INFO HEARTBEAT status=ok
+2026-10-05 09:04:14 optical-mumbai-02 INFO HEARTBEAT status=ok
+2026-10-05 09:04:22 router-delhi-01 INFO HEARTBEAT status=ok
+2026-10-05 09:05:01 router-chennai-04 INFO CONFIG-SAVED user=admin
+2026-10-05 09:05:35 switch-pune-03 INFO HEARTBEAT status=ok
+2026-10-05 09:06:03 router-chennai-04 INFO HEARTBEAT status=ok
+2026-10-05 09:06:23 optical-mumbai-02 INFO HEARTBEAT status=ok
+2026-10-05 09:07:01 switch-pune-03 INFO HEARTBEAT status=ok
+2026-10-05 09:07:34 switch-pune-03 INFO HEARTBEAT status=ok
+2026-10-05 09:07:46 router-delhi-01 INFO HEARTBEAT status=ok
+2026-10-05 09:08:23 router-delhi-01 ERR LINK-DOWN interface=Gi0/1 reason=carrier-loss
+2026-10-05 09:08:54 router-delhi-01 INFO LINK-UP interface=Gi0/1
+2026-10-05 09:09:08 switch-pune-03 INFO HEARTBEAT status=ok
+2026-10-05 09:09:48 router-delhi-01 INFO HEARTBEAT status=ok
+2026-10-05 09:10:14 switch-pune-03 INFO HEARTBEAT status=ok
+2026-10-05 09:10:41 router-delhi-01 ERR LINK-DOWN interface=Gi0/1 reason=carrier-loss
+2026-10-05 09:11:17 router-delhi-01 INFO LINK-UP interface=Gi0/1
+2026-10-05 09:11:26 router-chennai-04 INFO HEARTBEAT status=ok
+2026-10-05 09:11:34 router-delhi-01 INFO HEARTBEAT status=ok
+2026-10-05 09:12:07 switch-pune-03 INFO CONFIG-SAVED user=admin
+2026-10-05 09:12:30 router-delhi-01 ERR LINK-DOWN interface=Gi0/1 reason=carrier-loss
+2026-10-05 09:12:59 router-delhi-01 INFO LINK-UP interface=Gi0/1
+2026-10-05 09:13:26 router-chennai-04 INFO HEARTBEAT status=ok
+2026-10-05 09:13:41 optical-mumbai-02 WARN OPTICAL-LOW-POWER port=1/1 rx_power=-27.0dBm threshold=-25dBm
+2026-10-05 09:13:49 router-chennai-04 INFO CONFIG-SAVED user=admin
+2026-10-05 09:14:02 switch-pune-03 INFO HEARTBEAT status=ok
+2026-10-05 09:14:32 router-chennai-04 INFO CONFIG-SAVED user=admin
+2026-10-05 09:15:08 router-delhi-01 ERR LINK-DOWN interface=Gi0/1 reason=carrier-loss
+2026-10-05 09:15:18 router-delhi-01 INFO LINK-UP interface=Gi0/1
+2026-10-05 09:15:58 router-chennai-04 INFO HEARTBEAT status=ok
+2026-10-05 09:16:30 optical-mumbai-02 INFO HEARTBEAT status=ok
+2026-10-05 09:16:59 switch-pune-03 INFO CONFIG-SAVED user=admin
+2026-10-05 09:17:18 optical-mumbai-02 INFO HEARTBEAT status=ok
+2026-10-05 09:17:54 router-delhi-01 INFO CONFIG-SAVED user=admin
+2026-10-05 09:18:10 router-delhi-01 ERR LINK-DOWN interface=Gi0/1 reason=carrier-loss
+2026-10-05 09:18:31 router-delhi-01 INFO LINK-UP interface=Gi0/1
+2026-10-05 09:19:02 optical-mumbai-02 INFO HEARTBEAT status=ok
+2026-10-05 09:19:15 switch-pune-03 INFO HEARTBEAT status=ok
+2026-10-05 09:19:49 router-delhi-01 INFO CONFIG-SAVED user=admin
+2026-10-05 09:20:00 router-chennai-04 INFO HEARTBEAT status=ok
+2026-10-05 09:20:08 router-chennai-04 INFO HEARTBEAT status=ok
+2026-10-05 09:20:41 optical-mumbai-02 INFO HEARTBEAT status=ok
+2026-10-05 09:20:49 switch-pune-03 INFO HEARTBEAT status=ok
+2026-10-05 09:21:28 optical-mumbai-02 INFO HEARTBEAT status=ok
+2026-10-05 09:21:34 switch-pune-03 INFO HEARTBEAT status=ok
+2026-10-05 09:21:43 optical-mumbai-02 WARN OPTICAL-LOW-POWER port=1/1 rx_power=-29.0dBm threshold=-25dBm
+2026-10-05 09:22:10 switch-pune-03 INFO HEARTBEAT status=ok
+2026-10-05 09:22:22 router-chennai-04 INFO CONFIG-SAVED user=admin
+2026-10-05 09:22:56 router-chennai-04 INFO HEARTBEAT status=ok
+2026-10-05 09:23:06 switch-pune-03 INFO HEARTBEAT status=ok
+2026-10-05 09:23:27 switch-pune-03 INFO HEARTBEAT status=ok
+2026-10-05 09:24:05 optical-mumbai-02 INFO HEARTBEAT status=ok
+2026-10-05 09:24:19 switch-pune-03 INFO HEARTBEAT status=ok
+2026-10-05 09:24:57 router-delhi-01 INFO CONFIG-SAVED user=admin
+2026-10-05 09:25:18 router-delhi-01 INFO HEARTBEAT status=ok
+2026-10-05 09:25:46 switch-pune-03 WARN HIGH-LATENCY latency=246ms
+2026-10-05 09:26:13 switch-pune-03 ERR PACKET-LOSS loss=8.4% interface=Eth1/4
+2026-10-05 09:26:33 optical-mumbai-02 INFO CONFIG-SAVED user=admin
+2026-10-05 09:27:00 router-chennai-04 INFO HEARTBEAT status=ok
+2026-10-05 09:27:22 router-delhi-01 INFO CONFIG-SAVED user=admin
+2026-10-05 09:27:49 optical-mumbai-02 INFO HEARTBEAT status=ok
+2026-10-05 09:28:17 switch-pune-03 INFO HEARTBEAT status=ok
+2026-10-05 09:28:36 router-delhi-01 INFO HEARTBEAT status=ok
+2026-10-05 09:28:54 switch-pune-03 INFO HEARTBEAT status=ok
+2026-10-05 09:29:29 router-delhi-01 INFO HEARTBEAT status=ok
+2026-10-05 09:29:56 optical-mumbai-02 WARN OPTICAL-LOW-POWER port=1/1 rx_power=-31.0dBm threshold=-25dBm
+2026-10-05 09:30:28 optical-mumbai-02 INFO HEARTBEAT status=ok
+2026-10-05 09:30:58 switch-pune-03 WARN HIGH-LATENCY latency=191ms
+2026-10-05 09:31:08 switch-pune-03 ERR PACKET-LOSS loss=5.8% interface=Eth1/4
+2026-10-05 09:31:21 optical-mumbai-02 INFO CONFIG-SAVED user=admin
+2026-10-05 09:31:35 router-chennai-04 INFO HEARTBEAT status=ok
+2026-10-05 09:32:02 router-chennai-04 INFO CONFIG-SAVED user=admin
+2026-10-05 09:32:08 optical-mumbai-02 INFO HEARTBEAT status=ok
+2026-10-05 09:32:46 router-delhi-01 INFO HEARTBEAT status=ok
+2026-10-05 09:33:18 optical-mumbai-02 INFO CONFIG-SAVED user=admin
+2026-10-05 09:33:41 optical-mumbai-02 INFO HEARTBEAT status=ok
+2026-10-05 09:34:02 switch-pune-03 INFO HEARTBEAT status=ok
+2026-10-05 09:34:10 optical-mumbai-02 INFO HEARTBEAT status=ok
+2026-10-05 09:34:43 router-delhi-01 INFO HEARTBEAT status=ok
+2026-10-05 09:34:59 optical-mumbai-02 WARN OPTICAL-LOW-POWER port=1/1 rx_power=-33.0dBm threshold=-25dBm
+2026-10-05 09:35:15 optical-mumbai-02 INFO CONFIG-SAVED user=admin
+2026-10-05 09:35:55 router-delhi-01 INFO HEARTBEAT status=ok
+2026-10-05 09:36:06 router-chennai-04 INFO HEARTBEAT status=ok
+2026-10-05 09:36:13 switch-pune-03 INFO HEARTBEAT status=ok
+2026-10-05 09:36:46 router-delhi-01 INFO HEARTBEAT status=ok
+2026-10-05 09:37:08 optical-mumbai-02 INFO HEARTBEAT status=ok
+2026-10-05 09:37:45 router-chennai-04 INFO HEARTBEAT status=ok
+2026-10-05 09:38:25 switch-pune-03 WARN HIGH-LATENCY latency=298ms
+2026-10-05 09:38:42 switch-pune-03 ERR PACKET-LOSS loss=8.4% interface=Eth1/4
+2026-10-05 09:39:15 router-chennai-04 INFO HEARTBEAT status=ok
+2026-10-05 09:39:47 optical-mumbai-02 INFO HEARTBEAT status=ok
+2026-10-05 09:39:59 switch-pune-03 INFO HEARTBEAT status=ok
+2026-10-05 09:40:33 optical-mumbai-02 INFO HEARTBEAT status=ok
+2026-10-05 09:41:03 router-delhi-01 INFO HEARTBEAT status=ok
+2026-10-05 09:41:40 router-chennai-04 INFO HEARTBEAT status=ok
+2026-10-05 09:41:57 router-chennai-04 INFO HEARTBEAT status=ok
+2026-10-05 09:42:25 router-delhi-01 INFO HEARTBEAT status=ok
+2026-10-05 09:42:58 router-chennai-04 INFO HEARTBEAT status=ok
+2026-10-05 09:43:24 router-chennai-04 INFO CONFIG-SAVED user=admin
+2026-10-05 09:44:01 switch-pune-03 INFO HEARTBEAT status=ok
