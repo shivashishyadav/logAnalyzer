@@ -36,11 +36,7 @@ The agent does not guess. The LLM decides which tool to call (parse logs, detect
                                   sample_logs/network.log
 ```
 
-**Agent loop:**
-1. User question + tool definitions are sent to the LLM.
-2. If the LLM requests a tool, the function runs locally.
-3. The tool result is sent back to the LLM.
-4. Steps 2-3 repeat (up to 6 steps) until the LLM gives a final answer.
+![Workflow](/Flow.png)
 
 ---
 
