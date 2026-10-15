@@ -122,22 +122,10 @@ Groq retires models from time to time. If you get a `model_not_found` error, che
 
 ---
 
-## Example Questions
-
-- `Network me kya problems hain?`
-- `router-delhi-01 ka status batao aur issue explain karo`
-- `optical-mumbai-02 me kya ho raha hai? fix kya hoga?`
-- `switch-pune-03 ko ping karo aur batao latency kyun high hai`
-- `Saare ERR logs dikhao`
-- `Inme se sabse urgent kaunsa hai?`
-
----
-
 ## Sample Log Format
 
 ```
 2026-10-05 09:13:41 optical-mumbai-02 WARN OPTICAL-LOW-POWER port=1/1 rx_power=-27.0dBm threshold=-25dBm
-<timestamp> <device> <severity> <event> <message>
 ```
 
 The generated logs contain three planted incidents:
