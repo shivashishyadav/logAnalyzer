@@ -20,8 +20,8 @@ The agent does not guess. The LLM decides which tool to call (parse logs, detect
 
 ```
 ┌──────────┐    ┌──────────────┐    ┌───────────────┐    ┌──────────────┐
-│   User   │───▶│  Streamlit   │───▶│   agent.py    │───▶│  Groq LLM    │
-│          │    │   (app.py)   │    │  (agent loop) │◀───│ (tool calls) │
+│   User   │──▶│  Streamlit    │──▶│   agent.py    │──▶│  Groq LLM     │
+│          │    │   (app.py)   │    │  (agent loop) │◀──│ (tool calls)  │
 └──────────┘    └──────────────┘    └───────┬───────┘    └──────────────┘
                                             │ runs tool, returns result
                                             ▼
