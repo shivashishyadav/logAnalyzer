@@ -1,4 +1,4 @@
-"""Groq tool-calling agent loop: LLM decide karta hai kaunsa tool chalana hai."""
+"""Groq tool-calling agent loop: LLM decides which tool to call"""
 import json
 import os
 from groq import Groq
@@ -10,7 +10,7 @@ load_dotenv()
 MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
 SYSTEM = """Tum ek Network Operations assistant ho. Network logs ke issues dhoondhna,
 root cause batana aur fix suggest karna tumhara kaam hai. Jawab dene se pehle tools use karo,
-andaza mat lagao. Jawab simple Hinglish me do: problem, probable cause, suggested fix."""
+andaza mat lagao. Jawab simple Hindi ya English ya agar user bole to dono me do: problem, probable cause, suggested fix."""
 
 
 def run_agent(user_msg, history=None, api_key=None, max_steps=6):
@@ -38,11 +38,11 @@ def run_agent(user_msg, history=None, api_key=None, max_steps=6):
             trace.append((c.function.name, args, result))
             messages.append({"role": "tool", "tool_call_id": c.id,
                              "content": json.dumps(result)})
-    return "Max steps ho gaye, dobara try karo.", trace
+    return "Max steps reached, Try again!", trace
 
 
 if __name__ == "__main__":
-    ans, tr = run_agent(input("Sawal: "))
+    ans, tr = run_agent(input("Question: "))
     for name, args, _ in tr:
         print(f"[tool] {name}({args})")
     print(ans)

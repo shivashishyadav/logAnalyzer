@@ -1,4 +1,4 @@
-"""Agent ke tools: logs parse, anomalies detect, device status, ping (simulated)."""
+"""Agent tools: logs parse, anomalies detect, device status, ping (simulated)."""
 import re
 import random
 from collections import Counter, defaultdict
@@ -65,7 +65,7 @@ def get_device_status(device: str):
 
 
 def ping_host(host: str):
-    """Simulated ping (real network pe depend nahi karta, demo ke liye safe)."""
+    """Simulated ping (It does not depend on a real network, so it is safe for demonstration purposes.)."""
     rnd = random.Random(host)
     bad = any(k in host for k in ("pune", "delhi"))
     return {"host": host, "avg_latency_ms": rnd.randint(150, 260) if bad else rnd.randint(5, 40),
@@ -84,9 +84,9 @@ TOOL_SCHEMAS = [
     _tool("parse_logs", "Logs filter karke summary + latest events deta hai.",
           {"severity": {"type": "string", "description": "INFO, WARN ya ERR"},
            "device": {"type": "string"}, "limit": {"type": "integer"}}),
-    _tool("find_anomalies", "Saare logs scan karke link flapping, low optical power, latency, packet loss detect karta hai."),
-    _tool("get_device_status", "Ek device ka health status deta hai.",
+    _tool("find_anomalies", "Scans all logs to detect link flapping, low optical power, latency, and packet loss."),
+    _tool("get_device_status", "Provides the health status of a device.",
           {"device": {"type": "string"}}, ["device"]),
-    _tool("ping_host", "Host ko ping karke latency aur packet loss deta hai.",
+    _tool("ping_host", "Pings the host to measure latency and packet loss.",
           {"host": {"type": "string"}}, ["host"]),
 ]
